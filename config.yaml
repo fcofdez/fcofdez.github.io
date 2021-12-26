@@ -1,6 +1,6 @@
 baseurl: "https://fcofdez.github.io"
 languageCode: "en-us"
-title: "A minimal Hugo website"
+title: "Francisco Fernandez's blog"
 theme: "xmin"
 googleAnalytics: ""
 disqusShortname: ""
@@ -8,7 +8,6 @@ ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\
 footnotereturnlinkcontents: "↩"
 
 permalinks:
-  note: "/note/:year/:month/:day/:slug/"
   post: "/post/:year/:month/:day/:slug/"
 
 menu:
@@ -16,9 +15,6 @@ menu:
     - name: Home
       url: ""
       weight: 1
-    - name: Posts
-      url: "posts/"
-      weight: 4
     - name: Subscribe
       url: "index.xml"
 
