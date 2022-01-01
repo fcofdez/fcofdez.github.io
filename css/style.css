@@ -5,6 +5,11 @@ body {
   line-height: 1.5em;
 }
 
+a:link, a:visited {
+    color: #005282;
+    text-decoration: none;
+}
+
 /* header and footer areas */
 .menu { padding: 0; }
 .menu li { display: inline-block; }
